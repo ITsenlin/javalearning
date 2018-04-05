@@ -6,10 +6,14 @@ import java.util.ServiceLoader;
 public class SPIApp {
   public static void main(String[] args) {
     ServiceLoader<Hello> loader = ServiceLoader.load(Hello.class);
-    Iterator<Hello> iterator = loader.iterator();
-    while (iterator.hasNext()) {
-      Hello hello = iterator.next();
-      System.out.println(hello.sayHello("jack"));
+//    Iterator<Hello> iterator = loader.iterator();
+//    while (iterator.hasNext()) {
+//      Hello hello = iterator.next();
+//      System.out.println(hello.sayHello("jack"));
+//    }
+
+    for (Hello hello : loader) {
+      System.out.println(hello.sayHello("alex"));
     }
   }
 }
