@@ -6,7 +6,11 @@
 
   <groupId>com.itsenlin</groupId>
   <artifactId>java-learning</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>javaspi</module>
+  </modules>
 
 
 </project>
