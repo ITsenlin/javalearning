@@ -7,21 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd3d687a-ed83-4ee1-9e19-e41b698de766" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/websocketdemo_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/websocketdemo_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/websocketdemo/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/WSServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/websocketdemo/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/websocketdemo/src/main/webapp/index.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/websocketdemo/websocketdemo.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_29.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_29.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_29.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_java_websocket_Java_WebSocket_1_3_8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/javaclient/Client.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/javaclient/Client4JavaWebsocketProj.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/javaclient/ClientFromTomcat.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/websocketdemo_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/websocketdemo_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/websocketdemo/pom.xml" afterPath="$PROJECT_DIR$/websocketdemo/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/websocketdemo/websocketdemo.iml" afterPath="$PROJECT_DIR$/websocketdemo/websocketdemo.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,16 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaspi/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Hello.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaspi/src/main/java/com/itsenlin/javaspi/Hello.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,32 +52,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloImpl1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaspi/src/main/java/com/itsenlin/javaspi/HelloImpl1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloImpl2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaspi/src/main/java/com/itsenlin/javaspi/HelloImpl2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-              <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SPIApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaspi/src/main/java/com/itsenlin/javaspi/SPIApp.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,8 +67,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/websocketdemo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="581">
+              <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -117,8 +77,8 @@
       <file leaf-file-name="WSServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/WSServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="960">
+              <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#593#603#0" expanded="true" />
@@ -133,12 +93,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="570">
+              <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="63" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientFromTomcat.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/javaclient/ClientFromTomcat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/javaclient/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client4JavaWebsocketProj.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/javaclient/Client4JavaWebsocketProj.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="65" column="19" lean-forward="false" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+              <folding>
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
+                <element signature="e#1869#1870#0" expanded="true" />
+                <element signature="e#1897#1898#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,8 +190,11 @@
         <option value="$PROJECT_DIR$/javaspi/src/main/java/com/itsenlin/javaspi/SPIApp.java" />
         <option value="$PROJECT_DIR$/javaspi/readme.md" />
         <option value="$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/WSServer.java" />
-        <option value="$PROJECT_DIR$/websocketdemo/pom.xml" />
         <option value="$PROJECT_DIR$/websocketdemo/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/javaclient/Client.java" />
+        <option value="$PROJECT_DIR$/websocketdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/javaclient/Client4JavaWebsocketProj.java" />
+        <option value="$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/javaclient/ClientFromTomcat.java" />
       </list>
     </option>
   </component>
@@ -336,16 +350,13 @@
               <item name="websocketdemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="javaclient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javalearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javalearning" type="462c0819:PsiDirectoryNode" />
-              <item name="websocketdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -382,12 +393,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat8">
+  <component name="RunManager" selected="Application.ClientFromTomcat">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Client4JavaWebsocketProj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.itsenlin.websocket.demo.javaclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.itsenlin.websocket.demo.javaclient.Client4JavaWebsocketProj" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="websocketdemo" />
+      <envs />
+    </configuration>
+    <configuration name="ClientFromTomcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.itsenlin.websocket.demo.javaclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.itsenlin.websocket.demo.javaclient.ClientFromTomcat" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="websocketdemo" />
+      <envs />
     </configuration>
     <configuration name="SPIApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -555,13 +604,17 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat8" />
       <item index="1" class="java.lang.String" itemvalue="Application.SPIApp" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ClientFromTomcat" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Client4JavaWebsocketProj" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.SPIApp" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.ClientFromTomcat" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Client4JavaWebsocketProj" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SPIApp" />
       </list>
     </recent_temporary>
   </component>
@@ -579,7 +632,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522912957950</updated>
       <workItem from="1522912961517" duration="391000" />
-      <workItem from="1522913461674" duration="8153000" />
+      <workItem from="1522913461674" duration="10908000" />
     </task>
     <task id="LOCAL-00001" summary="create empty project">
       <created>1522913692806</created>
@@ -616,11 +669,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522924166793</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add websocket-demo for tomcat">
+      <created>1522937094780</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1522937094780</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8544000" />
+    <option name="totallyTimeSpent" value="11299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="82" y="-11" width="2089" height="1462" extended-state="6" />
@@ -648,7 +708,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25492176" sideWeight="0.4949367" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21958607" sideWeight="0.4949367" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25492176" sideWeight="0.5050633" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -671,7 +731,8 @@
     <MESSAGE value="create empty project" />
     <MESSAGE value="add java spi" />
     <MESSAGE value="add java spi, update readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="add java spi, update readme" />
+    <MESSAGE value="add websocket-demo for tomcat" />
+    <option name="LAST_COMMIT_MESSAGE" value="add websocket-demo for tomcat" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -707,8 +768,8 @@
         <state relative-caret-position="120">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -718,8 +779,8 @@
         <state relative-caret-position="120">
           <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="false" />
+            <element signature="e#151#152#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -777,14 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/websocketdemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -793,10 +846,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/websocket/WebSocketContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/WSServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="960">
+          <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#593#603#0" expanded="true" />
@@ -810,11 +879,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/javaclient/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocketdemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.3.8/Java-WebSocket-1.3.8.jar!/org/java_websocket/client/WebSocketClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1688">
+          <caret line="155" column="14" lean-forward="false" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/javaclient/Client4JavaWebsocketProj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="65" column="19" lean-forward="false" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+          <folding>
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1869#1870#0" expanded="true" />
+            <element signature="e#1897#1898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/java/com/itsenlin/websocket/demo/javaclient/ClientFromTomcat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
