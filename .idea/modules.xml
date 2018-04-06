@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/javalearning.iml" filepath="$PROJECT_DIR$/javalearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaspi/javaspi.iml" filepath="$PROJECT_DIR$/javaspi/javaspi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflections/reflections.iml" filepath="$PROJECT_DIR$/reflections/reflections.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocketdemo/websocketdemo.iml" filepath="$PROJECT_DIR$/websocketdemo/websocketdemo.iml" />
     </modules>
   </component>
