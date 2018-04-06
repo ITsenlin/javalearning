@@ -1,13 +1,21 @@
 package com.itsenlin.reflections;
 
 import java.io.File;
+import java.io.IOException;
+import java.net.JarURLConnection;
+import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URL;
+import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.jar.JarEntry;
+import java.util.jar.JarFile;
 
 public class ClassScanner {
   private static final String CLASS_SUFFIX = ".class";
+  private static final String JAR_SUFFIX = ".jar";
   private static final ClassLoader loader = ClassScanner.class.getClassLoader();
 
   /**
@@ -50,7 +58,6 @@ public class ClassScanner {
     return classes;
   }
 
-
   public void getClassesFromFile(String pkg, final boolean recursion, Map<String, Class<?>> map) {
 
     URI uri = null;
@@ -74,6 +81,57 @@ public class ClassScanner {
           e.printStackTrace();
         }
         map.put(file.getAbsolutePath(), clazz);
+      }
+    }
+  }
+
+  public void getClassFromJar(File dir, boolean recursion, Map<String, Class<?>> map) {
+    if (dir.isDirectory()) {
+      File[] files = dir.listFiles();
+      for (File file : files) {
+        if (file.isDirectory() && recursion) {
+          getClassFromJar(file, recursion, map);
+        }
+      }
+    } else if (dir.isFile() && dir.getName().endsWith(JAR_SUFFIX)) {
+      getClassFromJar(dir, map);
+    }
+  }
+
+  public void getClassFromJar(URL url, Map<String, Class<?>> map) {
+    try {
+      JarFile jarFile = ((JarURLConnection)url.openConnection()).getJarFile();
+      getClassFromJar(jarFile, map);
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  }
+
+  public void getClassFromJar(File file, Map<String, Class<?>> map) {
+    try {
+      JarFile jarFile = new JarFile(file);
+      getClassFromJar(jarFile, map);
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  }
+
+  public void getClassFromJar(JarFile jarFile, Map<String, Class<?>> map) {
+    Enumeration<JarEntry> jarEntryEnumeration = jarFile.entries();
+    while (jarEntryEnumeration.hasMoreElements()) {
+      JarEntry jarEntry = jarEntryEnumeration.nextElement();
+      if(jarEntry.isDirectory()) {
+        continue;
+      }
+      String name = jarEntry.getName();
+      if (name.endsWith(CLASS_SUFFIX)) {
+        Class<?> clazz = null;
+        try {
+          clazz = Class.forName(name);
+        } catch (ClassNotFoundException e) {
+          e.printStackTrace();
+        }
+        map.put(name, clazz);
       }
     }
   }
