@@ -1,7 +1,6 @@
 package com.itsenlin.reflections;
 
 import java.io.File;
-import java.io.FileFilter;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.HashMap;
@@ -32,8 +31,8 @@ public class ClassScanner {
    * @param clazz, classpath下存在的类的Class对象
    * @return 获取clazz所在路径下所有class文件的Class对象，以Map形式返回
    */
-  public Map<String, Class<?>> getClasses(Class<?> clazz) {
-    return getClasses(clazz, false);
+  public Map<String, Class<?>> getClassesFromFile(Class<?> clazz) {
+    return getClassesFromFile(clazz, false);
   }
 
   /**
@@ -42,17 +41,17 @@ public class ClassScanner {
    * @param recursion 是否要递归扫描，即clazz所在路径的子目录
    * @return 所有满足要求的clazz集合
    */
-  public Map<String, Class<?>> getClasses(Class<?> clazz, final boolean recursion) {
+  public Map<String, Class<?>> getClassesFromFile(Class<?> clazz, final boolean recursion) {
     final String pkgName = clazz.getPackage().getName();
     Map<String, Class<?>> classes = new HashMap<String, Class<?>>();
 
-    getClasses(pkgName, recursion, classes);
+    getClassesFromFile(pkgName, recursion, classes);
 
     return classes;
   }
 
 
-  private void getClasses(String pkg, final boolean recursion, Map<String, Class<?>> map) {
+  public void getClassesFromFile(String pkg, final boolean recursion, Map<String, Class<?>> map) {
 
     URI uri = null;
     try {
@@ -65,7 +64,7 @@ public class ClassScanner {
     File[] files = dir.listFiles();
     for (File file : files) {
       if (file.isDirectory() && recursion) {
-        getClasses(pkg + "." + file.getName(), true, map);
+        getClassesFromFile(pkg + "." + file.getName(), true, map);
       } else if (file.isFile() && file.getName().endsWith(CLASS_SUFFIX)) {
         String name = pkg + "." + file.getName().replace(CLASS_SUFFIX, "");
         Class<?> clazz = null;
