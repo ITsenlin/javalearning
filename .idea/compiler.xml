@@ -9,6 +9,7 @@
         <module name="basic" />
         <module name="javaspi" />
         <module name="multithread" />
+        <module name="nio" />
         <module name="reflections" />
         <module name="websocketdemo" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="javaspi" target="1.6" />
       <module name="multithread" target="1.8" />
       <module name="network" target="1.8" />
+      <module name="nio" target="1.8" />
       <module name="reflections" target="1.8" />
       <module name="websocketdemo" target="1.8" />
     </bytecodeTargetLevel>
