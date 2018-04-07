@@ -12,6 +12,7 @@
     <module>javaspi</module>
     <module>websocketdemo</module>
     <module>reflections</module>
+    <module>network</module>
   </modules>
 
 
